@@ -29,4 +29,3 @@ print (my_diccionario.fromkeys('nombre', 'edad')) # Nos recorre las keys como si
 my_list = ['Nombre', 1, '2']
 my_new_dict = my_diccionario.fromkeys(my_list) # Convertimos una lista a un diccionario sin valores
 print (my_new_dict)
-'''5:46:13'''
