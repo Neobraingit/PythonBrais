@@ -43,3 +43,5 @@ my_new_list.reverse() # Le damos la vuelta al la lista
 print (my_new_list)
 my_new_list.sort() # Ordena la lista pero en este caso no funciona porque hay strings
 print (my_new_list)
+print (my_list[1:2]) # Hacemos sublistas
+
