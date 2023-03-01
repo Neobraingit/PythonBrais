@@ -29,6 +29,13 @@ my_dict = {'nombre' : 'Marcos', 'edad' : 48}
 print (my_dict['Marco'])  # Nos da un error de llave
 
 
+# TypeError
+
+print (my_list['nombre']) # Un error de tipo
+
+
+
+
 
 
 
