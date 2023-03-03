@@ -11,6 +11,19 @@ txt_file = open ('/Users/marcos/Documents/Documentos - MacBook Pro de Marcos/Bra
 # print (txt_file.readlines()) # Saltos de línea
 
 txt_file.write('\nHola mundo')
+#os.remove('/Users/marcos/Documents/Documentos - MacBook Pro de Marcos/Brais/PythonBrais/file.txt') # Borramos el fichero
+
+# .jason file
+
+import json
+
+json.file = open('my_file.json', 'w+') # Creamos el fichero
+
+json.text = {'Nombre' : 'Marcos', 
+             'Apellido'  : 'Carmona',
+             'Segundo_apellido' : 'García'}
+
+json.dump(json.text, json.file)
 
 
 
